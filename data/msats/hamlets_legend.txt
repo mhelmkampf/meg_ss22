@@ -1,0 +1,17 @@
+1	H.chlorurus	Barbados
+2	H.nigricans	Barbados
+3	H.puella	Barbados
+4	H.indigo	Belize
+5	H.nigricans	Belize
+6	H.puella	Belize
+7	H.nigricans	Bocas
+8	H.puella	Bocas
+9	H.unicolor	Bocas
+10	H.gummigutta	Media Luna
+11	H.nigricans	Media Luna
+12	H.puella	Media Luna
+13	H.unicolor	Media Luna
+14	H.aberrans	Cayos Ratones
+15	H.nigricans	Cayos Ingleses
+16	H.puella	Cayos Ingleses
+17	H.unicolor	Cayos Ingleses

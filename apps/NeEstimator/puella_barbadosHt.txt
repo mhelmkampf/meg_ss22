@@ -1,0 +1,28 @@
+Output from NeEstimator v2.1
+Starting time: Fri May  6 12:41:22 2022
+Input File: "/Users/martin/Documents/Academia/7_Teaching/06_MarEcoGenetics/meg_ss22/data/puella_barbados.gen"
+
+Number of Loci = 10
+
+
+Population     1 [barbados ind#735]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       49.6        49.6        49.6        49.6 
+Independent Alleles =             65         124         147         147  
+Weighted Mean D =             -0.00453     0.00247     0.00367     0.00367
+Estimated Neb^  =             Infinite       202.6       136.6       136.6
+
+95% CIs for Nb:
+* Parametric                      17.9        23.5        26.7        26.7
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Ending time: Fri May  6 12:41:22 2022
+-------------------------------------
+

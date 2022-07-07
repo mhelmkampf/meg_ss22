@@ -1,0 +1,280 @@
+Output from NeEstimator v2.1
+Starting time: Fri May 13 14:42:35 2022
+Input File: "../../../data/puella_caribbean.txt"
+
+Number of Loci = 10
+
+
+Population     1 [carrie bow cay ind#1]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       49.9        49.9        49.9        49.9 
+Independent Alleles =             61         130         160         160  
+Weighted Mean D =              0.00919     0.00765     0.01028     0.01028
+Estimated Neb^  =                 54.9        65.9        49.1        49.1
+
+95% CIs for Nb:
+* Parametric                      12.8        20.5        21.9        21.9
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     2 [utila ind#51]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       54.1        54.1        54.1        54.1 
+Independent Alleles =             53         101         131         167  
+Weighted Mean D =              0.00735    -0.00417     0.00108     0.00018
+Estimated Neb^  =                 68.5    Infinite       464.6      2727.7
+
+95% CIs for Nb:
+* Parametric                      11.6        23.3        24.2        32.1
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     3 [guanaja ind#106]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       52.5        52.5        52.5        52.5 
+Independent Alleles =             56         105         128         166  
+Weighted Mean D =              0.02443     0.01423     0.00461     0.00468
+Estimated Neb^  =                 21.0        35.6       109.0       107.3
+
+95% CIs for Nb:
+* Parametric                       9.0        13.7        16.2        20.1
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     4 [cayos becerros ind#161]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       53.6        53.6        53.6        53.6 
+Independent Alleles =             58         113         142         164  
+Weighted Mean D =             -0.00443    -0.00457    -0.00128    -0.00228
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      14.6        27.7        30.8        38.6
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     5 [cayos de media luna ind#216]  (Number of Individuals = 54)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       52.9        52.9        52.9        52.9 
+Independent Alleles =             56          99         132         168  
+Weighted Mean D =             -0.02297    -0.01624    -0.01242    -0.00781
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      31.2        45.0        63.8        65.7
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     6 [bocas del toro ind#270]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       47.9        47.9        47.9        47.9 
+Independent Alleles =             64         116         144         144  
+Weighted Mean D =             -0.01604    -0.00775    -0.00836    -0.00836
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      27.5        43.1        68.5        68.5
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     7 [el porvenir ind#320]  (Number of Individuals = 47)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       46.4        46.4        46.4        46.4 
+Independent Alleles =             57         117         149         149  
+Weighted Mean D =             -0.03595    -0.01410    -0.01366    -0.01366
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      41.6        39.0        66.2        66.2
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     8 [cayos holandeses ind#367]  (Number of Individuals = 54)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       49.6        49.6        49.6        49.6 
+Independent Alleles =             59         112         142         157  
+Weighted Mean D =              0.02963     0.01010     0.00970     0.00769
+Estimated Neb^  =                 17.4        50.0        52.0        65.5
+
+95% CIs for Nb:
+* Parametric                       9.1        15.5        18.7        21.5
+                                 393.6    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population     9 [islas puyadas ind#421]  (Number of Individuals = 53)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       49.3        49.3        49.3        49.3 
+Independent Alleles =             62         113         147         160  
+Weighted Mean D =              0.00333    -0.00795    -0.00680    -0.00707
+Estimated Neb^  =                150.8    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      13.8        28.3        38.5        45.1
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    10 [cayos ratones ind#474]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       53.1        53.1        53.1        53.1 
+Independent Alleles =             53         108         138         165  
+Weighted Mean D =             -0.02821    -0.02760    -0.02552    -0.02307
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      35.1        84.7       123.8       297.8
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    11 [cayos ingleses ind#529]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       52.9        52.9        52.9        52.9 
+Independent Alleles =             53         106         140         174  
+Weighted Mean D =             -0.01013     0.00982     0.00815     0.00700
+Estimated Neb^  =             Infinite        51.4        61.9        71.9
+
+95% CIs for Nb:
+* Parametric                      21.1        17.6        22.5        27.4
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    12 [achutupu ind#584]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       47.9        47.9        47.9        47.9 
+Independent Alleles =             62         125         163         163  
+Weighted Mean D =             -0.02853    -0.01971    -0.01246    -0.01246
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      59.5        89.4        78.2        78.2
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    13 [isla dupak ind#634]  (Number of Individuals = 46)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       44.5        44.5        44.5        44.5 
+Independent Alleles =             55         117         153         153  
+Weighted Mean D =              0.00773     0.01111     0.00968     0.00968
+Estimated Neb^  =                 65.2        45.5        52.2        52.2
+
+95% CIs for Nb:
+* Parametric                      10.2        16.2        21.3        21.3
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    14 [goedup ind#680]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       54.1        54.1        54.1        54.1 
+Independent Alleles =             51          98         123         160  
+Weighted Mean D =             -0.00695    -0.01708    -0.02092    -0.01689
+Estimated Neb^  =             Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Nb:
+* Parametric                      15.1        33.2        57.0        84.3
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Population    15 [barbados ind#735]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+HETEROZYGOTE EXCESS METHOD
+
+Harmonic Mean Sample Size =       49.6        49.6        49.6        49.6 
+Independent Alleles =             65         124         147         147  
+Weighted Mean D =             -0.00453     0.00247     0.00367     0.00367
+Estimated Neb^  =             Infinite       202.6       136.6       136.6
+
+95% CIs for Nb:
+* Parametric                      17.9        23.5        26.7        26.7
+                              Infinite    Infinite    Infinite    Infinite
+**************************************************************************
+
+Ending time: Fri May 13 14:42:35 2022
+-------------------------------------
+

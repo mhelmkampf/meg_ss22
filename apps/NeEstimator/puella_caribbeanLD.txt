@@ -1,0 +1,356 @@
+Output from NeEstimator v2.1
+Starting time: Fri Jun 24 13:59:26 2022
+Input File: "../../data/puella_caribbean.gen"
+
+Number of Loci = 10
+
+LD mating model: Random
+
+Population     1 [carrie bow cay]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       49.9        49.9        49.9        49.9
+Independent Comparisons =       1644        7352       11132       11132
+OverAll r^2 =                 0.021468    0.020929    0.020578    0.020578
+Expected r^2 Sample =         0.021337    0.021306    0.021307    0.021307
+Estimated Ne^ =                 2538.1    Infinite    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     196.6      1053.2    Infinite    Infinite
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           136.6       684.0    Infinite    Infinite
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     2 [utila]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       53.0        52.8        52.8        52.9
+Independent Comparisons =       1228        4613        7633       12031
+OverAll r^2 =                 0.018679    0.020007    0.020037    0.019266
+Expected r^2 Sample =         0.019957    0.020032    0.020040    0.020003
+Estimated Ne^ =               Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                    1137.0       405.5       512.3    Infinite
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           270.9       226.8       336.5      6346.8
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     3 [guanaja]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       51.1        50.6        50.5        50.9
+Independent Comparisons =       1287        5066        8277       11619
+OverAll r^2 =                 0.023296    0.021555    0.021590    0.021834
+Expected r^2 Sample =         0.020781    0.020987    0.021010    0.020843
+Estimated Ne^ =                  130.5       584.8       572.1       334.5
+
+95% CIs for Ne^
+* Parametric                      73.2       230.6       263.8       211.2
+                                 407.1    Infinite    Infinite       756.1
+
+* JackKnife on Samples            48.4       138.8       156.0       130.4
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     4 [cayos becerros]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       51.9        51.3        51.3        51.5
+Independent Comparisons =       1467        5861        9227       11630
+OverAll r^2 =                 0.019376    0.020745    0.020573    0.020423
+Expected r^2 Sample =         0.020395    0.020627    0.020642    0.020536
+Estimated Ne^ =               Infinite      2821.6    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     717.3       372.4       618.0       786.8
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           251.5       261.5       318.2       398.4
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     5 [cayos de media luna]  (Number of Individuals = 54)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       51.2        50.8        50.9        51.5
+Independent Comparisons =       1428        4692        8158       12069
+OverAll r^2 =                 0.019485    0.020888    0.020702    0.020341
+Expected r^2 Sample =         0.020679    0.020839    0.020804    0.020562
+Estimated Ne^ =               Infinite      6825.2    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                    1045.7       360.0       605.3      1098.2
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           378.5       225.0       346.1       311.2
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     6 [bocas del toro]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       46.9        46.2        45.6        45.6
+Independent Comparisons =       1789        5677        8857        8857
+OverAll r^2 =                 0.022211    0.022503    0.022113    0.022113
+Expected r^2 Sample =         0.022322    0.022544    0.022750    0.022750
+Estimated Ne^ =               Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     232.7       409.6     11534.6     11534.6
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           123.3       264.0       556.2       556.2
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     7 [el porvenir]  (Number of Individuals = 47)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       45.6        45.4        45.3        45.3
+Independent Comparisons =       1393        5871        9593        9593
+OverAll r^2 =                 0.022650    0.024068    0.023510    0.023510
+Expected r^2 Sample =         0.023427    0.023526    0.023596    0.023596
+Estimated Ne^ =               Infinite       613.2    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     330.1       229.9       559.7       559.7
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           163.2       153.7       291.9       291.9
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     8 [cayos holandeses]  (Number of Individuals = 54)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       46.6        45.7        45.7        45.7
+Independent Comparisons =       1644        6136       10259       10313
+OverAll r^2 =                 0.021799    0.023270    0.023206    0.023185
+Expected r^2 Sample =         0.022778    0.023204    0.023209    0.023194
+Estimated Ne^ =               Infinite      5073.2    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     562.1       363.6       514.5       520.9
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           156.9       153.3       153.9       152.6
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population     9 [islas puyadas]  (Number of Individuals = 53)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       45.7        44.7        45.0        45.3
+Independent Comparisons =       1737        6011       10151       10652
+OverAll r^2 =                 0.021783    0.023404    0.023302    0.022926
+Expected r^2 Sample =         0.022866    0.023349    0.023242    0.023054
+Estimated Ne^ =               Infinite      6098.4      5570.6    Infinite
+
+95% CIs for Ne^
+* Parametric                     752.6       362.4       464.5       665.1
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           304.0       163.0       198.8       233.2
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    10 [cayos ratones]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       51.1        50.4        50.3        50.7
+Independent Comparisons =       1256        5507        9069       11361
+OverAll r^2 =                 0.020372    0.020710    0.021339    0.021156
+Expected r^2 Sample =         0.020737    0.021041    0.021067    0.020916
+Estimated Ne^ =               Infinite    Infinite      1223.6      1386.7
+
+95% CIs for Ne^
+* Parametric                     249.1       716.0       365.5       414.0
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           164.5       289.5       181.5       215.5
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    11 [cayos ingleses]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       51.0        50.5        50.5        50.8
+Independent Comparisons =       1343        5844       10560       12748
+OverAll r^2 =                 0.022223    0.022230    0.021878    0.021842
+Expected r^2 Sample =         0.020807    0.020995    0.021004    0.020871
+Estimated Ne^ =                  233.3       268.0       379.4       341.4
+
+95% CIs for Ne^
+* Parametric                     102.1       159.5       223.7       217.7
+                              Infinite       739.0      1125.8       748.5
+
+* JackKnife on Samples            64.8        75.6       113.5       116.7
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    12 [achutupu]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       46.0        45.7        45.4        45.4
+Independent Comparisons =       1668        6663       11316       11316
+OverAll r^2 =                 0.022120    0.022677    0.022792    0.022792
+Expected r^2 Sample =         0.022948    0.023081    0.023230    0.023230
+Estimated Ne^ =               Infinite    Infinite    Infinite    Infinite
+
+95% CIs for Ne^
+* Parametric                     440.5       861.6      1993.9      1993.9
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           166.5       339.2       482.8       482.8
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    13 [isla dupak]  (Number of Individuals = 46)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       42.6        42.9        42.8        42.8
+Independent Comparisons =       1492        5808        9983        9983
+OverAll r^2 =                 0.024762    0.024923    0.025132    0.025132
+Expected r^2 Sample =         0.025046    0.024905    0.024993    0.024993
+Estimated Ne^ =               Infinite     18777.9      2408.2      2408.2
+
+95% CIs for Ne^
+* Parametric                     207.1       348.9       389.9       389.9
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           124.7       197.4       208.7       208.7
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    14 [goedup]  (Number of Individuals = 55)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       53.1        52.6        52.4        52.6
+Independent Comparisons =       1173        4484        7083       10942
+OverAll r^2 =                 0.020360    0.019662    0.020072    0.020223
+Expected r^2 Sample =         0.019915    0.020111    0.020196    0.020142
+Estimated Ne^ =                  747.3    Infinite    Infinite      4088.4
+
+95% CIs for Ne^
+* Parametric                     149.5       851.2       599.0       528.5
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           109.3       378.3       272.2       279.2
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Population    15 [barbados]  (Number of Individuals = 50)
+****************
+--------------------------------------------------------------------------
+Lowest Allele Frequency Used     0.050       0.020       0.010         0+
+--------------------------------------------------------------------------
+
+LINKAGE DISEQUILIBRIUM METHOD
+
+Harmonic Mean Sample Size =       49.2        49.1        49.1        49.1
+Independent Comparisons =       1857        6710        9377        9377
+OverAll r^2 =                 0.021822    0.021704    0.022150    0.022150
+Expected r^2 Sample =         0.021648    0.021657    0.021682    0.021682
+Estimated Ne^ =                 1909.6      7068.6       710.2       710.2
+
+95% CIs for Ne^
+* Parametric                     200.1       414.2       296.6       296.6
+                              Infinite    Infinite    Infinite    Infinite
+
+* JackKnife on Samples           123.5       320.6       194.8       194.8
+                              Infinite    Infinite    Infinite    Infinite
+
+**************************************************************************
+
+Ending time: Fri Jun 24 13:59:27 2022
+-------------------------------------
+
