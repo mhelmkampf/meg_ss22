@@ -57,7 +57,7 @@ cat *_con.fas > ../co1.fas
 
 
 
-### Identify species of origin based on barcode
+### Identify species of samples based on barcode
 
 # Barcode of Life Data System (BOLD): http://www.boldsystems.org/index.php/
 # select Identification, Animal Identification (COI), Species Level Barcode Records
@@ -68,7 +68,7 @@ cat *_con.fas > ../co1.fas
 
 ### =============== Bonus material =============== ###
 
-### Alternative to BOLD: identify barcode with BLAST and the NCBI nt database
+### Alternative to BOLD: identify sample with BLAST and the NCBI nt database
 
 # https://blast.ncbi.nlm.nih.gov/Blast.cgi
 # select Nucleotide BLAST, Nucleotide collection (nr/nt), megablast
@@ -86,7 +86,7 @@ cat *_con.fas > ../co1.fas
 
 ### ================== Solutions ================= ###
 
-### Species IDs
+### Species ID of samples
 
 # 10: Oncorhynchus keta                      100%
 # 11: Gadus chalcogrammus                    100%
