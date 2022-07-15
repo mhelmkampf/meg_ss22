@@ -1,6 +1,7 @@
-### ===================================================================== ###
-### 02 Within population genetics (diversity, Hardy-Weinberg, inbreeding) ###
-### ===================================================================== ###
+### ============================= ###
+### 02 Within population genetics ###
+### ============================= ###
+
 
 ## Check working directory if unclear
 getwd()
@@ -55,7 +56,7 @@ library(genepop)
 library(poppr)
 
 help(read.genepop)
-yellowblue <- read.genepop("data/yellowblue.gen", ncode = 1)
+yellowblue <- read.genepop("data/msats/yellowblue.gen", ncode = 1)
 
 yellowblue
 yellowblue@tab
@@ -67,7 +68,7 @@ hw.test(yellowblue)
 
 ### Real-world data: microsatellite data of a reef fish population from Barbados
 
-barbados <- read.genepop("data/puella_barbados.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
+barbados <- read.genepop("data/msats/puella_barbados.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
 barbados
 
 ## What is the most / least diverse locus in terms of number of alleles?
@@ -78,18 +79,18 @@ barbados@all.names   # Names of alleles for each locus
 locus_table(barbados)
 
 ## Is this population in HWE? What does this tell us?
-test_HW("data/puella_barbados.txt", outputFile = "local/barbados_HW.txt")
+test_HW("data/msats/puella_barbados.txt", outputFile = "local/barbados_HW.txt")
 hw.test(barbados)  # alternative using pegas package
 
 ## Compare to Cayo de Media Luna population
-medialuna <- read.genepop("data/puella_medialuna.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
-test_HW("data/puella_medialuna.txt", outputFile = "local/medialuna_HW.txt")
+medialuna <- read.genepop("data/msats/puella_medialuna.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
+test_HW("data/msats/puella_medialuna.txt", outputFile = "local/medialuna_HW.txt")
 # hw.test(medialuna)
 
 
 ### All populations: what patterns can you identify? (locus / pop outliers)
-caribbean <- read.genepop("data/puella_caribbean.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
-test_HW("data/puella_caribbean.txt", outputFile = "local/caribbean_HW.txt")
+caribbean <- read.genepop("data/msats/puella_caribbean.txt", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
+test_HW("data/msats/puella_caribbean.txt", outputFile = "local/caribbean_HW.txt")
 # hw.test(caribbean)
 
 

@@ -2,6 +2,7 @@
 ### 05 Isolation by distance ###
 ### ======================== ###
 
+
 ## Working directory
 # getwd()   use to see whether your current directory is meg_ss22
 # setwd()   set current directory to meg_ss22 if necessary
@@ -24,7 +25,7 @@ library(genepop)
 
 
 ## Read in data (file extensions: Windows = .txt, macOS = .gen)
-hamlets <- read.genepop("data/hamlets_caribbean.gen", ncode = 3)
+hamlets <- read.genepop("data/msats/hamlets_caribbean.gen", ncode = 3)
 
 
 ## Population-specific Fst (average for each population)
@@ -54,11 +55,11 @@ ggplot(data = fh, aes(x = reorder(Population, -Fst), y = Fst)) +       # determi
 ### Exercise 2: Pairwise Fst
 
 ## Calculate pairwise Fst between all populations
-Fst("data/puella_caribbean.txt", pairs = TRUE, outputFile = "local/puella_FstPairs.txt")
+Fst("data/msats/puella_caribbean.txt", pairs = TRUE, outputFile = "local/puella_FstPairs.txt")
 
 
 ## Test for differentiation between populations (exact G test)
-test_diff("data/puella_caribbean.txt", pairs = TRUE, outputFile = "local/puella_diffPairs.txt", iterations = 1000)
+test_diff("data/msats/puella_caribbean.txt", pairs = TRUE, outputFile = "local/puella_diffPairs.txt", iterations = 1000)
 
 
 ## Clean up temporary files (may not work on Windows)
@@ -68,8 +69,8 @@ system("rm fichier.in cmdline.txt")
 ### Exercise 3: Isolation by distance
 
 ## Read in data
-geo <- read_csv("data/puella_geo.csv", col_names = TRUE, col_types = "cd")   # pairwise geographical distances in km
-fst <- read_csv("data/puella_fst.csv", col_names = TRUE, col_types = "cd")   # pairwise Fst between populations
+geo <- read_csv("data/msats/puella_geo.csv", col_names = TRUE, col_types = "cd")   # pairwise geographical distances in km
+fst <- read_csv("data/msats/puella_fst.csv", col_names = TRUE, col_types = "cd")   # pairwise Fst between populations
 
 
 ## Convert data from wide to long format

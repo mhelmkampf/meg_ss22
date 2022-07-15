@@ -2,21 +2,26 @@
 ### 06 Genome sequencing and assembly ###
 ### ================================= ###
 
-# Software installation (macOS only)
-# python3 -m pip install --user --upgrade cutadapt
+
+## Preparations
 
 # Change into project directory
-cd ~/meg_ss22   # your path (directory location) may differ
+cd ~/meg_ss22   # change to path (directory location) on your system
 
 # Update Git repository
 git pull
 
-# Alternatively, remove directory and download again
+# On error, remove old project directory and download again
 # git clone https://github.com/mhelmkampf/meg_ss22
 
-# Navigating the file system
+# Software installation (macOS only)
+# python3 -m pip install --user --upgrade cutadapt
+
+
+
+## Navigating the file system
 ls -l
-cd genome
+cd data/genome
 pwd
 cd ..   # .. stands for parent directory
 
@@ -36,25 +41,25 @@ grep '@HW' Hpue_raw300_F.fastq | wc -l   # print all lines containing '@HW', the
 
 # Assess read quality with Fastqc
 # https://www.bioinformatics.babraham.ac.uk/projects/fastqc
-cd ../software
+cd ../../apps
 unzip fastqc_v0.11.9.zip
 
 # Run Fastqc
 cd FastQC
 ./fastqc -h   # . stands for current directory
-./fastqc ../../genome/Hpue_raw300_F.fastq
+./fastqc ../../data/genome/Hpue_raw300_F.fastq
 
 # Remove adapters with cutadapt
 cd ..
 ./cutadapt-3.4.exe -help
-./cutadapt-3.4.exe -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCA -q 10 -o ../genome/Hpue_raw300_F_trim.fastq ../genome/Hpue_raw300_F.fastq
+./cutadapt-3.4.exe -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCA -q 10 -o ../data/genome/Hpue_raw300_F_trim.fastq ../data/genome/Hpue_raw300_F.fastq
 
 # Rerun Fastqc
 cd FastQC
-./fastqc ../../genome/Hpue_raw300_F_trim.fastq
-cd ../../genome && ls -l   # change directory and list contents in one command
+./fastqc ../../data/genome/Hpue_raw300_F_trim.fastq
+cd ../../data/genome && ls -l   # change directory and list contents in one command
 mkdir qc
-mv *fastqc* qc             # move all files containing 'fastqc' in the file name to qc directory
+mv *fastqc* qc                  # move all files containing 'fastqc' in the file name to qc directory
 
 
 ## Genome assembly

@@ -1,6 +1,5 @@
 ### ================================ ###
 ### 01 Introduction to R and RStudio ###
-### Marine Ecological Genetics SS22  ###
 ### ================================ ###
 
 

@@ -2,6 +2,7 @@
 ### 04 Population structure ###
 ### ======================= ###
 
+
 ## Working directory
 # getwd()   use to see whether your current directory is meg_ss22
 # setwd()   set current directory to meg_ss22 if necessary
@@ -34,12 +35,11 @@ population(max.repeat = 1, max.time = 50, quiet = FALSE, N.allele = 20, N.loci =
 
 ### Exercise 2: Estimate Ne from genetic data with NeEstimator
 
-# Software available in other/software or at http://www.molecularfisherieslaboratory.com.au/neestimator-software/
-# Run command line version (e.g. Ne2-1.exe on Windows) or GUI version (NeEstimator2x1.jar)
-# Requires multi-locus diploid genotypes in Genepop format
-# Relative path to data files is ../../../data/
-# For method choose heterozygote excess
-# Results will be saved in /other/software/NeEstimator
+## Software available in apps/NeEstimator
+## To run, execute in terminal Ne2-1.exe on Windows, Ne2M on Mac, or Ne2L on Linux
+## Provide path to input file when prompted, e.g. ../../data/msats/puella_caribbean.gen)
+## For method choose heterozygote excess (2)
+## Results will be saved in apps/NeEstimator
 
 
 ### Exercise 3: Calculate global Fst and test for differentiation
@@ -51,9 +51,9 @@ library(pegas)
 
 
 ## Read in data (file extensions: Windows = .txt, macOS = .gen)
-caribbean <- read.genepop("data/puella_caribbean.gen", ncode = 3)
-temporal <- read.genepop("data/puella_temporal.gen", ncode = 3)
-hamlets <- read.genepop("data/hamlets_caribbean.gen", ncode = 3)
+caribbean <- read.genepop("data/msats/puella_caribbean.gen", ncode = 3)
+temporal <- read.genepop("data/msats/puella_temporal.gen", ncode = 3)
+hamlets <- read.genepop("data/msats/hamlets_caribbean.gen", ncode = 3)
 
 
 ## Calculate global Fst (per-locus and overall)
@@ -61,15 +61,15 @@ pegas::Fst(as.loci(caribbean))
 pegas::Fst(as.loci(temporal))
 pegas::Fst(as.loci(hamlets))
 
-genepop::Fst("data/puella_caribbean.txt", outputFile = "local/caribbean_Fst.txt")
-genepop::Fst("data/puella_temporal.txt", outputFile = "local/temporal_Fst.txt")
-genepop::Fst("data/hamlets_caribbean.txt", outputFile = "local/hamlets_Fst.txt")
+genepop::Fst("data/msats/puella_caribbean.txt", outputFile = "local/caribbean_Fst.txt")
+genepop::Fst("data/msats/puella_temporal.txt", outputFile = "local/temporal_Fst.txt")
+genepop::Fst("data/msats/hamlets_caribbean.txt", outputFile = "local/hamlets_Fst.txt")
 
 
 ## Test for differentiation (G-test)
-test_diff("data/puella_caribbean.txt", outputFile = "local/caribbean_diff.txt")   # how to? help(genepop)
-test_diff("data/puella_temporal.txt", outputFile = "local/temporal_diff.txt")
-test_diff("data/hamlets_caribbean.txt", outputFile = "local/hamlets_diff.txt")
+test_diff("data/msats/puella_caribbean.txt", outputFile = "local/caribbean_diff.txt")   # how to? help(genepop)
+test_diff("data/msats/puella_temporal.txt", outputFile = "local/temporal_diff.txt")
+test_diff("data/msats/hamlets_caribbean.txt", outputFile = "local/hamlets_diff.txt")
 
 
 ### Exercise 4: Calculate population-specific Fst
@@ -104,7 +104,7 @@ ggplot(data = b, aes(x = reorder(Population, -Fst), y = Fst)) +        # determi
 
 
 ## Test differentiation between populations
-test_diff("data/hamlets_caribbean.txt", pairs = TRUE, outputFile = "local/hamlets_diffpairs.txt", iterations = 1000)
+test_diff("data/msats/hamlets_caribbean.txt", pairs = TRUE, outputFile = "local/hamlets_diffpairs.txt", iterations = 1000)
 
 
 ## Clean up temporary files (may not work on Windows)

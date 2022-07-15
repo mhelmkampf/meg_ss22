@@ -2,6 +2,7 @@
 ### 03 Effective population size ###
 ### ============================ ###
 
+
 ## Working directory
 # getwd()   use to see whether your current directory is meg_ss22
 # setwd()   set current directory to meg_ss22 if necessary
@@ -19,8 +20,8 @@ library(pegas)
 ### Exercise 1: Test whether self-fertilization occurs in hamlets
 
 ## Read in data
-barbados <- read.genepop("data/puella_barbados.gen", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
-caribbean <- read.genepop("data/puella_caribbean.gen", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
+barbados <- read.genepop("data/msats/puella_barbados.gen", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
+caribbean <- read.genepop("data/msats/puella_caribbean.gen", ncode = 3)   # file extensions: Windows = .txt, macOS = .gen
 
 ## Calculate Fis
 pegas::Fst(as.loci(barbados))
@@ -29,8 +30,8 @@ pegas::Fst(as.loci(caribbean))
 ## Test for heterozygote deficiency
 help(test_HW)
 
-test_HW("data/puella_barbados.txt", which = "deficit", outputFile = "local/barbados_Hdef.txt")
-test_HW("data/puella_caribbean.txt", which = "global deficit", outputFile = "local/caribbean_Hdef.txt")
+test_HW("data/msats/puella_barbados.txt", which = "deficit", outputFile = "local/barbados_Hdef.txt")
+test_HW("data/msats/puella_caribbean.txt", which = "global deficit", outputFile = "local/caribbean_Hdef.txt")
 
 ## Clean up (may not work on Windows)
 system("rm fichier.in cmdline.txt")
@@ -67,12 +68,11 @@ ggplot(data = df, aes(x = Generation, y = Ne)) +
 
 ### Exercise 3: Estimate Ne from genetic data with NeEstimator
 
-## Software available in other/software or at http://www.molecularfisherieslaboratory.com.au/neestimator-software/
-## Run command line version (e.g. Ne2-1.exe on Windows) or GUI version (NeEstimator2x1.jar)
-## Requires multi-locus diploid genotypes in Genepop format
-## Relative path to data files is ../../../data/
-## For method choose heterozygote excess
-## Results will be saved in /other/software/NeEstimator
+## Software available in apps/NeEstimator
+## To run, execute in terminal Ne2-1.exe on Windows, Ne2M on Mac, or Ne2L on Linux
+## Provide path to input file when prompted, e.g. ../../data/msats/puella_caribbean.gen)
+## For method choose heterozygote excess (2)
+## Results will be saved in apps/NeEstimator
 
 
 ### Exercise 4: Explore population model (homework)

@@ -16,8 +16,8 @@ library(genepop)
 
 ## Load data
 # use data objects from previous script (07_snps.R), or:
-# scores_lg12 <- read_csv("genome/pca_lg12_scores.csv")
-# eig_lg12 <- as.numeric(read_lines("genome/pca_lg12_eig.csv"))
+# scores_lg12 <- read_csv("data/tables/pca_lg12_scores.csv")
+# eig_lg12 <- as.numeric(read_lines("data/tables/pca_lg12_eig.csv"))
 
 
 ## Plot PC scores (minimal solution)
@@ -57,8 +57,8 @@ barplot(var_lg12, main = "Proportion of variance explained", las = 2)   # quick 
 ### Test for linkage disequilibrium between microsatellite loci
 
 ## G-test (null hypothesis: loci are independent)
-test_LD("data/puella_caribbean.txt", outputFile = "local/puella_LD.txt")
-test_LD("data/hamlets_caribbean.txt", outputFile = "local/hamlets_LD.txt")
+test_LD("data/msats/puella_caribbean.txt", outputFile = "local/puella_LD.txt")
+test_LD("data/msats/hamlets_caribbean.txt", outputFile = "local/hamlets_LD.txt")
 
 
 ## Clean up temporary files (may not work on Windows)
@@ -105,17 +105,17 @@ vcftools --gzvcf snps_lg12_phased_36_ld4.vcf.gz \
 ### Plot r2 and D statistics
 
 ## Read in stats from vcftools output
-un <- read_tsv("genome/ld/snps_lg12_phased_36.ld.tsv") %>%
+un <- read_tsv("data/snps/snps_lg12_phased_36.ld.tsv") %>%
   rename(r2 = `R^2`) %>%
   mutate(Set = "Un") %>%
   select(r2, Dprime, Set)
 
-kb <- read_tsv("genome/ld/snps_lg12_phased_36_2kb.ld.tsv") %>%
+kb <- read_tsv("data/snps/snps_lg12_phased_36_2kb.ld.tsv") %>%
   rename(r2 = `R^2`) %>%
   mutate(Set = "Kb") %>%
   select(r2, Dprime, Set)
 
-ld <- read_tsv("genome/ld/snps_lg12_phased_36_ld4.ld.tsv") %>%
+ld <- read_tsv("data/snps/snps_lg12_phased_36_ld4.ld.tsv") %>%
   rename(r2 = `R^2`) %>%
   mutate(Set = "Ld") %>%
   select(r2, Dprime, Set)
@@ -137,11 +137,11 @@ boxplot(un$r2, kb$r2, ld$r2, names = c("Un", "Kb", "Ld"), ylab = "r2", outline =
   
 ### Estimate Ne from LD with NeEstimator
 
-## Software available in other/software/NeEstimator
+## Software available in apps/NeEstimator
 ## To run, execute in terminal Ne2-1.exe on Windows, Ne2M on Mac, or Ne2L on Linux
-## Provide path to input file when prompted, e.g. ../../data/puella_caribbean.gen)
+## Provide path to input file when prompted, e.g. ../../data/msats/puella_caribbean.gen)
 ## For method choose linkage disequilibrium (1)
-## Results will be saved in /other/software/NeEstimator
+## Results will be saved in apps/NeEstimator
 
 
 

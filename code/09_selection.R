@@ -4,7 +4,7 @@
 
 
 ### Preparations
-instlg12.packages("vcfR")
+install.packages("vcfR")
 
 library(tidyverse)
 library(vcfR)
@@ -16,11 +16,11 @@ library(adegenet)
 
 ### Exercise 1: Estimate Ne from LD with NeEstimator
 
-## Software available in /software/NeEstimator
+## Software available in apps/NeEstimator
 ## To run, execute in terminal Ne2-1.exe on Windows, Ne2M on Mac, or Ne2L on Linux
-## Provide path to input file when prompted, e.g. ../../data/puella_caribbean.gen)
+## Provide path to input file when prompted, e.g. ../../data/msats/puella_caribbean.gen)
 ## For method choose linkage disequilibrium (1)
-## Results will be saved in /other/software/NeEstimator
+## Results will be saved in apps/NeEstimator
 
 
 
@@ -38,7 +38,7 @@ library(adegenet)
 
 ### Exercise 3: Identifying genomic regions potentially under selection
 
-## Fst calculations were done with vcftools, output and log files are in data/selection)
+## Fst calculations were done with vcftools, output and log files are in data/snps)
 
 # Calculate joint Fst per SNP
 # vcftools --gzvcf snps_lg12_phased_36.vcf.gz \
@@ -64,7 +64,7 @@ library(adegenet)
 
 
 ## Plot joint Fst, per SNP
-snp <- read_tsv("data/selection/fst_snp_lg12.tsv")
+snp <- read_tsv("data/snps/fst_snp_lg12.tsv")
 
 (p <- ggplot(data = snp, aes(x = POS, y = WEIR_AND_COCKERHAM_FST)) +
   geom_point(size = 0.25, alpha = 0.5) +
@@ -80,7 +80,7 @@ p + geom_hline()
 
 
 ## Plot joint Fst, along 50kb windows
-win <- read_tsv("data/selection/fst_50kb_lg12.tsv")
+win <- read_tsv("data/snps/fst_50kb_lg12.tsv")
 
 (w <- ggplot(data = win, aes(x = BIN_START, y = WEIGHTED_FST)) +
     geom_point(size = 0.5, alpha = 0.5) +
@@ -142,7 +142,7 @@ print(vin %>% filter(OUTLIER == "yes"), n = nrow(vin))
 
 
 ## PCA based on genomic regions of interest (region 1)
-region1_vcf <- read.vcfR("data/selection/region1.vcf.gz")
+region1_vcf <- read.vcfR("data/snps/region1.vcf.gz")
 
 region1_gl <- vcfR2genlight(region1_vcf)
 
@@ -155,7 +155,7 @@ scores_region1 <- as.data.frame(pca_region1$scores) %>%
 
 
 ## If the code above is not working, load data from file
-# scores_region1 <- read_csv("data/selection/pca_region1_scores.csv")
+# scores_region1 <- read_csv("data/tables/pca_region1_scores.csv")
 
 
 ## Plot region-specific PCA
@@ -223,7 +223,7 @@ s + xlim(2.00e+07, 2.05e+07)
 
 
 ## PCA based on genomic regions of interest (region 2)
-region2_vcf <- read.vcfR("data/selection/region2.vcf.gz")
+region2_vcf <- read.vcfR("data/snps/region2.vcf.gz")
 
 region2_gl <- vcfR2genlight(region2_vcf)
 
@@ -236,7 +236,7 @@ scores_region2 <- as.data.frame(pca_region2$scores) %>%
 
 
 ## If the code above is not working, load data from file
-# scores_region2 <- read_csv("data/selection/pca_region2_scores.csv")
+# scores_region2 <- read_csv("data/tables/pca_region2_scores.csv")
 
 
 ## Plot region-specific PCA

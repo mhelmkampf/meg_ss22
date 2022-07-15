@@ -14,7 +14,7 @@
 ### Variant Call Format (in bash)
 
 ## Print (compressed) VCF file to screen
-cd ~/meg_ss22/genome   # if project directory is in home (~), adjust if necessary
+cd ~/meg_ss22/data/genome   # if project directory is in home (~), adjust if necessary
 zcat < snps_lg12_phased_36.vcf.gz | head
 zcat < snps_rad.vcf.gz | head
 
@@ -40,10 +40,10 @@ library(adegenet)
 
 
 ## Read in VCF
-lg12_vcf <- read.vcfR("genome/snps_lg12_phased_36.vcf.gz")
+lg12_vcf <- read.vcfR("data/snps/snps_lg12_phased_36.vcf.gz")
 lg12_vcf
 
-rad_vcf <- read.vcfR("genome/snps_rad.vcf.gz")
+rad_vcf <- read.vcfR("data/snps/snps_rad.vcf.gz")
 rad_vcf
 
 
@@ -86,7 +86,7 @@ scores_lg12 <- as.data.frame(pca_lg12$scores) %>%
   rownames_to_column("Sample") %>%
   as_tibble()
 
-# If this step stalls, load with: scores_lg12 <- read_csv("genome/pca_lg12_scores.csv")
+# If this step stalls, load with: scores_lg12 <- read_csv("data/tables/pca_lg12_scores.csv")
 
 
 ## Exercise: Plot PC scores

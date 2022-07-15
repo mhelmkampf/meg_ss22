@@ -2,12 +2,17 @@
 ### 11 DNA barcoding ###
 ### ================ ###
 
+
 ### Preparations
 
-# Remove old project directory
+# Change into project directory
+cd ~/meg_ss22   # change to path (directory location) on your system
 
-# Navigate to your location of choice (e.g. cd ~) and re-download repository
-git clone https://github.com/mhelmkampf/meg_ss22
+# Update Git repository
+git pull
+
+# On error, remove old project directory and download again
+# git clone https://github.com/mhelmkampf/meg_ss22
 
 # On Windows, install and launch BioEdit
 # zipped installation file provided in meg_ss22/apps
