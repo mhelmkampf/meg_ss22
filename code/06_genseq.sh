@@ -17,6 +17,8 @@ git pull
 # Software installation (macOS only)
 # python3 -m pip install --user --upgrade cutadapt
 
+# Additional software is provided in meg_ss22/apps
+
 
 
 ## Navigating the file system
